@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{FFC67D5D-408D-4C29-847B-C81A49EB9262}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9AEDF94-9BFC-4254-B59D-8BC76CE2ABBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CACF4F4B-0780-4881-A576-6E263D8FCF36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "src\API\API.csproj", "{E57F5A55-4537-41C1-934D-DEC9994DB1AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Test", "test\API.Test\API.Test.csproj", "{566DCAF4-EA87-4B10-ADDC-305FCCA5B264}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E57F5A55-4537-41C1-934D-DEC9994DB1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57F5A55-4537-41C1-934D-DEC9994DB1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57F5A55-4537-41C1-934D-DEC9994DB1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57F5A55-4537-41C1-934D-DEC9994DB1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566DCAF4-EA87-4B10-ADDC-305FCCA5B264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566DCAF4-EA87-4B10-ADDC-305FCCA5B264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566DCAF4-EA87-4B10-ADDC-305FCCA5B264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566DCAF4-EA87-4B10-ADDC-305FCCA5B264}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E57F5A55-4537-41C1-934D-DEC9994DB1AA} = {F9AEDF94-9BFC-4254-B59D-8BC76CE2ABBA}
+		{566DCAF4-EA87-4B10-ADDC-305FCCA5B264} = {CACF4F4B-0780-4881-A576-6E263D8FCF36}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B44EB40-46A7-4739-A4D5-A177A9484CBC}
+	EndGlobalSection
+EndGlobal
